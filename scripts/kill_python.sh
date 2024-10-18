@@ -1,0 +1,1 @@
+ps -def | grep python | cut -c 9-15 | xargs kill -9

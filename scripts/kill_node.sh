@@ -1,0 +1,1 @@
+ps -def | grep node | cut -c 9-15 | xargs kill -9
